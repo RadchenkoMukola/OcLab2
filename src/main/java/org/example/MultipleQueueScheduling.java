@@ -1,3 +1,5 @@
+package org.example;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -26,7 +28,7 @@ public class MultipleQueueScheduling {
     public static void main(String[] args) throws IOException {
         long startTime = System.currentTimeMillis();
         MultipleQueueScheduling multipleQueueScheduling = new MultipleQueueScheduling();
-        Object[] returnArrayOfObjects = multipleQueueScheduling.excelReader("D:\\PROJECTS\\University-VSem\\OperationSystems\\Lab2_OS\\InputData.xls");
+        Object[] returnArrayOfObjects = multipleQueueScheduling.excelReader("C:\\Users\\kolya\\IdeaProjects\\OcLab2\\InputData.xls");
         @SuppressWarnings("unused")
         int[] burstTime = (int[])returnArrayOfObjects[0];
         @SuppressWarnings("unused")
